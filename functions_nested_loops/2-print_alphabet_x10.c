@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Make the aplhabet x10
+ * print_alphabet_x10 - Make the alphabet x10 times
  *
  * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-
 	char c;
 	int i;
 	i = 0;

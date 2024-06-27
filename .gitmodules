@@ -1,0 +1,3 @@
+[submodule "pointers_arrays_strings/pointer_arrays_strings/0x06.c"]
+	path = pointers_arrays_strings/pointer_arrays_strings/0x06.c
+	url = git@github.com:hs-hq/0x06.c.git

@@ -4,7 +4,7 @@
 
 /**
  * print_dog - Function that prints a struct dog.
- * @d: a variable of type struct dog.
+ * @d: The struct to be printed
  */
 
 void print_dog(struct dog *d)
@@ -19,7 +19,7 @@ void print_dog(struct dog *d)
 		{
 			printf("Name: %s\n", d->name);
 		}
-		if (d->age == 0 || d->age < 0)
+		if (d->age <= 0)
 		{
 			printf("Age: (nil)\n");
 		}

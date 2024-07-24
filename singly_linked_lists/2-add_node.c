@@ -31,7 +31,8 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	for (string_length = 0; str[string_length]; string_length++)
+	for (string_length = 0; str[string_length];)
+		string_length++;
 
 	new_node->str = string_duplicate;
 	new_node->len = string_length;

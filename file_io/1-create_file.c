@@ -2,7 +2,7 @@
 
 /**
  * create_file - Creates a file.
- * @filename - The name of the file to create.
+ * @filename: A pointer to the name of the file to create.
  * @text_content: A NULL terminated string to write to the file.
  *
  * Return: 1 on success, -1 on failure or if filename is NULL.
@@ -27,10 +27,9 @@ int create_file(const char *filename, char *text_content)
 	fileWrite = write(fileOpen, text_content, length);
 
 	if (fileOpen == -1 || fileWrite == -1)
-	{
 		return (-1);
-	}
 
 	close(fileOpen);
+
 	return (1);
 }
